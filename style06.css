@@ -1,0 +1,57 @@
+body{
+    margin: 30px 0px 0px 30px;
+    font-family: 'Alkalami', serif;
+/* font-family: 'Poppins', sans-serif; */
+    }
+.heading{
+    border-bottom:2px solid red;
+    font-size:40px;
+    margin-right: 30px;
+    padding-bottom:20px;  
+}
+.all-product{
+    margin-top: 40px;
+}
+/* .product-card{
+    width: 1000px;
+    border: 0.3px solid gray; */
+}
+.imag-box{
+    position:relative;
+}
+
+.img-box img{
+    /* height: 300px; */
+    width: 25%;
+    /* position: relative; */
+}
+.hover-panel{
+    position:absolute;
+    display:flex;
+    justify-content:space-evenly;
+    height:0px;
+    width:20%;
+    align-items: center;
+    background-color: rgb(203, 32, 32);
+    margin-left:20px;
+
+  
+    /* bottom:0;
+    left:0px; */
+
+}
+.hover-panel i{
+    font-size:20px;
+    margin:25px;
+    display:none;
+}
+.name{
+    font-size:20px;
+    margin:10px 0px;
+}
+/* sumon  */
+.img-box:hover .hover-panel i{
+    display: block;
+    background-color:rgb(203, 32, 32);
+
+}
